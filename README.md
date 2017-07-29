@@ -16,7 +16,7 @@ A few things to note:
 
 -- The instructions indicated not to use any JavaScript on the sub-menu. The sub-menu is indeed fully built in CSS, but the Style Guide asked for certain stylings which would only happen after a click (ie. make the sub-nav item blue when opening the second-level nav). So, for the after-a-click styles, JavaScript (jQuery) was used, but only to toggle CSS classes in order to achieve the result that the Style Guide asked for. That's it. Everything else is all CSS, aaaall the time. :)
 
--- This was testing in all modern browsers, which is to say Chrome, Firefox, and Edge - I'm on a PC, so I don't have an easy way to test on Safari, but everything should be OK. If it's not, by all means make fun of me. I did  :)
+-- This was tested in all modern browsers, which is to say Chrome, Firefox, and Edge - I'm on a PC at home, so I don't have an easy way to test on Safari, but everything should be OK. If it's not, by all means make fun of me. :)
 
 If you have any questions or concerns, just let me know. Thanks very much!
 
