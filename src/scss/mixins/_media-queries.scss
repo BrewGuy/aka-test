@@ -1,42 +1,44 @@
 @mixin respond-to($breakpoint) {
+  
+  // For just mobile
   @if $breakpoint == "mobile" {
     @media (max-width: 767px) {
       @content;
     }
   }
-
+  
+  // For just tablet
   @else if $breakpoint == "tablet" {
     @media (min-width: 768px) and (max-width: 991px) {
       @content;
     }
   }
 
+  // For tablet and up
   @else if $breakpoint == "tablet-up" {
     @media (min-width: 768px) {
       @content;
     }
   }
 
+  // For just desktop
   @else if $breakpoint == "desktop" {
     @media (min-width: 992px) and (max-width: 1199px) {
       @content;
     }
   }
 
+  // For desktop and up
   @else if $breakpoint == "desktop-up" {
     @media (min-width: 992px) {
       @content;
     }
   }
 
-
+  // For biiig desktops
   @else if $breakpoint == "large-desktop" {
     @media (min-width: 1200px) {
       @content;
     }
   }
 }
-
-// @include respond-to(small) { ... }
-// @include respond-to(medium) { ... }
-// @include respond-to(large) { ... }
