@@ -21,7 +21,9 @@ The timing delay on the images is mostly because of the giant background file be
 You can see it here: http://www.brewguy.ca/akatest
 You can also download a zip file of everything here: http://www.brewguy.ca/akatest/akatest.zip
 
--- The instructions indicated not to use any JavaScript on the sub-menu. The sub-menu is indeed fully built in CSS, but the Style Guide asked for certain stylings which would only happen after a click (ie. make the sub-nav item blue when opening the second-level nav). So, for the after-click styles, JavaScript (jQuery) was used, but only to toggle CSS classes in order to achieve the result that the Style Guide asked for. That's it. Everything else is all CSS, aaaall the time. :)
+-- Just FYI, the styling for the sub-menu on the Mockup graphic and the styling for the sub-menu in the Style Guide were completely different from each other - I went with the stylings in the Style Guide.
+
+-- That said, the instructions indicated not to use any JavaScript on the sub-menu. The sub-menu is indeed fully built in CSS, but the Style Guide asked for certain stylings which would only happen after a click (ie. make the sub-nav item blue when opening the second-level nav). So, for the after-click styles, JavaScript (jQuery) was used, but only to toggle CSS classes in order to achieve the result that the Style Guide asked for. That's it. Everything else is all CSS, aaaall the time. :)
 
 -- This was tested in all modern browsers, which is to say Chrome, Firefox, and Edge - I'm on a PC at home, so I don't have an easy way to test on Safari, but everything should be OK. If it's not, by all means make fun of me. :)
 
