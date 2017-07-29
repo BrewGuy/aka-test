@@ -1,0 +1,35 @@
+.Footer {
+	margin: 40px 0 0;
+	background: #ffffff;
+
+	&--left {
+		text-align: center;
+		margin: 20px auto;
+		max-width: 240px;
+
+		@include respond-to(tablet-up) {
+			text-align: left;
+			margin: 20px 0;
+			max-width: 500px;
+		}
+	}
+
+	&--right {
+		text-align: center;
+		margin: 20px 0;
+
+		@include respond-to(tablet-up) {
+			text-align: right;
+			margin: 20px 0;
+		}
+
+		a {
+			color: #474747;
+
+			&:hover {
+				color: #474747;
+				text-decoration: underline;
+			}
+		}
+	}
+}

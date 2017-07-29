@@ -1,0 +1,84 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+body {
+  background: #f8f8f8;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #474747;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headers */
+h1 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 30px 0;
+  text-align: center;
+
+  @include respond-to(mobile) {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+}
+
+h2 {
+  font-size:24px;
+  color: #474747;
+  font-weight: 700;
+
+  @include respond-to(mobile) {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  font-size:24px;
+  color: #474747;
+
+  @include respond-to(mobile) {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+/* Links */
+
+a {
+  color: #2196f3;
+
+  &:hover {
+    color: #0C7CD6;
+  }
+
+  &.button {
+    background: #2196f3;
+    border-radius: 3px;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 auto;
+    min-width: 150px;
+    font-size: 16px;
+
+    &:hover {
+      background: #0c7cd6;
+    }
+  }
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

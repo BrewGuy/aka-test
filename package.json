@@ -1,0 +1,24 @@
+{
+  "name": "limpsquad",
+  "version": "1.0.0",
+  "description": "Limp Squad!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daryl Brewer",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "install": "^0.10.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "npm": "^5.0.3",
+    "uglify": "^0.1.5"
+  }
+}

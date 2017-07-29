@@ -1,0 +1,22 @@
+.ContactUs {
+  margin: 40px 0;
+  text-align: center;
+
+  h3 {
+    text-align: center;
+    line-height: 30px;
+    display: inline;
+  }
+  
+
+  a.button {
+    display: block;
+    max-width: 250px;
+    margin: 20px auto 0;
+
+    @include respond-to (tablet-up) {
+      display: inline-block;
+      margin: 0 30px;
+    }
+  }
+}
