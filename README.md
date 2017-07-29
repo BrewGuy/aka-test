@@ -10,11 +10,16 @@ A few things to note:
 	1. On a command line, run "npm install" - this should install all necessary components for you to run locally.
 	2. Once the installation is finished, type "gulp" and hit enter. This should fire up a local server and display the test page for you.
 
--- If you don't want to do all that, you can take the files in the "dist" folder and put them any server you wish, and the page should display fine. Keep in mind though, that the files in the dist folder have been minified and compressed, so if you wish to evaluate the SASS code, have a look in the src/scss folder.
+-- If you don't want to do all that, you can take the files in the "dist" folder and put them on any server you wish, and the page should display fine. Keep in mind though, that the files in the dist folder have been minified and compressed, so if you wish to evaluate the SASS code, have a look in the src/scss folder.
 
--- If you do go the Gulp route, The gulp file included here minifies the CSS and JavaScript and compresses the image files. Once you run gulp, it may take a minute or so for the images to be compressed, so the first time you run it, you may see no images. You should eventually get a message from your command line which will say "Minified 12 images" and some details. Once you see that, refresh the page and all should be fine. 
+-- If you do go the Gulp route, The gulp file included here minifies the CSS and JavaScript and compresses the image files. Once you run gulp, it may take a minute or so for the images to be compressed, so the first time you run it, you may see no images. You should eventually get a message from your command line which will say "Minified 12 images" and some details. Once you see that, refresh the page and all should be fine.
 
 The timing delay on the images is mostly because of the giant background file being used for the search header. Had this been a real project, I would have cut a separate, smaller image for mobile/tablet, as loading a background image that's over a meg in size on your phone is not exactly best practice for mobile development. :)
+
+-- In case something goes wrong trying to get Gulp working, I've uploaded the whole thing to my own site. 
+
+You can see it here: http://www.brewguy.ca/akatest
+You can also download a zip file of everything here: http://www.brewguy.ca/akatest/akatest.zip
 
 -- The instructions indicated not to use any JavaScript on the sub-menu. The sub-menu is indeed fully built in CSS, but the Style Guide asked for certain stylings which would only happen after a click (ie. make the sub-nav item blue when opening the second-level nav). So, for the after-click styles, JavaScript (jQuery) was used, but only to toggle CSS classes in order to achieve the result that the Style Guide asked for. That's it. Everything else is all CSS, aaaall the time. :)
 

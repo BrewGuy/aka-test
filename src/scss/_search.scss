@@ -1,7 +1,7 @@
 // Search section
 
 .Search {
-  background: url('/images/banner_homepage.png') 0 0 no-repeat;
+  background: url('../images/banner_homepage.png') 0 0 no-repeat;
   background-size: 100% 100%;
   padding: 15% 0;
 
@@ -26,7 +26,7 @@
 
       & input {
         width: 100%;
-        height: 35px;
+        height: 45px;
         padding: 10px;
         font-size: 16px;
         border: 1px solid #ededed;
@@ -38,17 +38,13 @@
         }
         
         // Firefox
-        &::-moz-placeholder { /* Firefox 19+ */
+        &::-moz-placeholder { 
           color: #b2a4a4;
         }
         
         // IE10+ (eww)
-        &:-ms-input-placeholder { /* IE 10+ */
+        &:-ms-input-placeholder { 
           color: #b2a4a4;
-        }
-        
-        @include respond-to(tablet-up) {
-          padding: 20px;
         }
       }
     }
