@@ -42,11 +42,11 @@
     }
 
     li {
-      background: url('/images/icon_plus.png') 0 2px no-repeat;
+      background: url('../images/icon_plus.png') 0 2px no-repeat;
       margin-bottom: 20px;
 
       &.open {
-        background: url('/images/icon_minus.png') 0 2px no-repeat;
+        background: url('../images/icon_minus.png') 0 2px no-repeat;
       }
 
      & .question {
