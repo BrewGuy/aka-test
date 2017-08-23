@@ -16,8 +16,6 @@ A few things to note:
 
 The timing delay on the images is mostly because of the giant background file being used for the search header. Had this been a real project, I would have cut a separate, smaller image for mobile/tablet, as loading a background image that's over a meg in size on your phone is not exactly best practice for mobile development. :)
 
--- In case something goes wrong trying to get Gulp working, I've uploaded the whole thing to my own site here: http://www.brewguy.ca/akatest
-
 -- I've also provided a zip file of everything just in case - you can download here: http://www.brewguy.ca/akatest/aka-test.zip
 
 -- Just FYI, the styling for the sub-menu on the Mockup graphic and the styling for the sub-menu in the Style Guide were completely different from each other - I went with the stylings in the Style Guide.
